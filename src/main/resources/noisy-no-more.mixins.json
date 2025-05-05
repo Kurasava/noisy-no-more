@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"package": "net.kurasava.noisynomore.mixins",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"MixinSoundOptionsScreen",
+		"GameOptionsInvoker",
+		"MixinSoundSystem"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

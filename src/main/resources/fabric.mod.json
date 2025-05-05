@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "noisy-no-more",
+	"version": "${version}",
+	"name": "Noisy No More",
+	"description": "A mod that adds additional volume settings",
+	"authors": [
+		"Kurasava"
+	],
+	"contact": {
+		"homepage": "https://epserv.ru/",
+		"sources": "https://github.com/Kurasava/noisy-no-more"
+	},
+	"license": "Custom (All Rights Reserved)",
+	"icon": "assets/noisy-no-more/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"main": ["net.kurasava.noisynomore.NoisyNoMore"]
+	},
+	"mixins": [
+		"noisy-no-more.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
