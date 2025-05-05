@@ -1,4 +1,4 @@
-![](src/main/resources/assets/smooth-night/icon.png)
+![](src/main/resources/assets/noisy-no-more/icon.png)
 
 # Noisy No More
 
